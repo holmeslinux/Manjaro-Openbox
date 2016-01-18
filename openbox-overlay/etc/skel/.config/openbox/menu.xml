@@ -16,14 +16,14 @@
 				<execute>xterm ~/.managers/pacli</execute>
 			</action>
 		</item>
-		<item label="Explorer">
+		<item label="Explorer Files">
 			<action name="Execute">
 				<execute>pcmanfm</execute>
 			</action>
 		</item>
 		<item label="Browser">
 			<action name="Execute">
-				<execute>palemonn-bin</execute>
+				<execute>palemoon-bin</execute>
 			</action>
 		</item>
 		<menu id="client-list-menu"/>
@@ -44,16 +44,6 @@
 					<execute>gmrun</execute>
 				</action>
 			</item>
-			<item label="Catfish Search">
-				<action name="Execute">
-					<execute>catfish</execute>
-				</action>
-			</item>
-			<item label="ClipIt Manager">
-				<action name="Execute">
-					<execute>clipit</execute>
-				</action>
-			</item>
 			<item label="Leafpad Editor">
 				<action name="Execute">
 					<execute>leafpad</execute>
@@ -64,14 +54,9 @@
 					<execute>gksu sakura</execute>
 				</action>
 			</item>
-			<item label="Root Explorer">
+			<item label="Root PCManFM">
 				<action name="Execute">
 					<execute>gksu pcmanfm</execute>
-				</action>
-			</item>
-			<item label="Xarchiver Compact">
-				<action name="Execute">
-					<execute>xarchiver</execute>
 				</action>
 			</item>
 		</menu>
@@ -79,6 +64,11 @@
 			<item label="Viewnior Image">
 				<action name="Execute">
 					<execute>viewnior</execute>
+				</action>
+			</item>
+                <item label="Image Editor">
+				<action name="Execute">
+					<execute>palemoon http://www.online-image-editor.com/</execute>
 				</action>
 			</item>
 		</menu>
@@ -100,19 +90,9 @@
 			</item>
 		</menu>
 		<menu id="Network" label="Network">
-			<item label="Avahi SSH">
-				<action name="Execute">
-					<execute>/usr/bin/bssh</execute>
-				</action>
-			</item>
-			<item label="Avahi VNC">
-				<action name="Execute">
-					<execute>/usr/bin/bvnc</execute>
-				</action>
-			</item>
 			<item label="Pale Moon Browser">
 				<action name="Execute">
-					<execute>palemonn-bin</execute>
+					<execute>palemoon-bin</execute>
 				</action>
 			</item>
 			<item label="XChat IRC">
@@ -134,7 +114,7 @@
 			</item>
 			<item label="Google Docs">
 				<action name="Execute">
-					<execute>palemonn-bin https://drive.google.com/</execute>
+					<execute>palemoon-bin https://drive.google.com/</execute>
 				</action>
 			</item>
 			<item label="Xournal Reader">
@@ -142,18 +122,18 @@
 					<execute>xournal</execute>
 				</action>
 			</item>
+			<item label="PDF Tools">
+				<action name="Execute">
+					<execute>palemoon http://smallpdf.com/</execute>
+				</action>
+			</item>
+			<item label="Scanner Full">
+				<action name="Execute">
+					<execute>simple-scan</execute>
+				</action>
+			</item>
 		</menu>
 		<menu id="Settings" label="Settings">
-			<item label="Bluetooth Adapters">
-				<action name="Execute">
-					<execute>blueman-adapters</execute>
-				</action>
-			</item>
-			<item label="Bluetooth Manager">
-				<action name="Execute">
-					<execute>blueman-manager</execute>
-				</action>
-			</item>
 			<item label="Customize Visual">
 				<action name="Execute">
 					<execute>lxappearance</execute>
@@ -201,19 +181,9 @@
 					<execute>pamac-updater</execute>
 				</action>
 			</item>
-			<item label="Avahi Zeroconf">
-				<action name="Execute">
-					<execute>/usr/bin/avahi-discover</execute>
-				</action>
-			</item>
 			<item label="PCManFM Explorer">
 				<action name="Execute">
 					<execute>pcmanfm</execute>
-				</action>
-			</item>
-			<item label="GParted HD">
-				<action name="Execute">
-					<execute>/usr/bin/gparted_polkit</execute>
 				</action>
 			</item>
 			<item label="Htop Process">
@@ -221,7 +191,7 @@
 					<execute>xterm -e 'htop'</execute>
 				</action>
 			</item>
-			<item label="Manage Printing">
+			<item label="Manager Printing">
 				<action name="Execute">
 					<execute>/usr/bin/xdg-open http://localhost:631/</execute>
 				</action>
@@ -229,11 +199,6 @@
 			<item label="Medit Editor">
 				<action name="Execute">
 					<execute>medit</execute>
-				</action>
-			</item>
-			<item label="Nano Editor">
-				<action name="Execute">
-					<execute>sakura -x nano</execute>
 				</action>
 			</item>
 			<item label="Sakura Terminal">

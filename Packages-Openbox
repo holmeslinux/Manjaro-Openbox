@@ -35,7 +35,8 @@ dconf
 desktop-file-utils
 
 ## Display Manager
-slim
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
 
 ## Desktop Display
 compton
@@ -63,7 +64,6 @@ prelink
 preload
 downgrade
 pmenu
-catfish
 
 ## Desktop Configuration
 lxappearance-obconf
@@ -83,7 +83,6 @@ xcursor-vanilla-dmz-aa
 ## Applications
 medit
 epdfview
-gparted
 hardinfo
 htop
 leafpad

@@ -289,7 +289,7 @@
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>palemonn-bin</command>
+        <command>palemoon-bin</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>Browser</name>
